@@ -18,7 +18,7 @@
 boxplot_payments_by_DRG <- function(df, payment_type) {
 
   # Validate payment_type argument
-  if (!payment_type %in% c("Average.Medicare.Payments", "Average.Total.Payments", "Average.Covered_Charges")) {
+  if (!payment_type %in% c("Average.Medicare.Payments", "Average.Total.Payments", "Average.Covered.Charges")) {
     stop("Invalid payment_type. Choose from 'Average.Medicare.Payments', 'Average.Total.Payments', or 'Average.Covered.Charges'.")
   }
 
