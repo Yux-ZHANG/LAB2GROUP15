@@ -1,0 +1,12 @@
+Package: LAB2G15
+Type: Package
+Title: A package for ploting and statistics calculation
+Version: 0.1.0
+Author: Yuxuan Zhang, Tianxue Liang
+Maintainer: Yuxuan Zhang <yuz4017@med.cornell,edu>, Tianxue Liang <til4020@med.cornell.edu>
+Description: The package contains two functions. The functions can make boxplot of payments by DRG code, or calculate the statistics of the payments.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: ggplot2
